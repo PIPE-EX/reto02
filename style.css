@@ -1,0 +1,80 @@
+/* Se importa la fuente */
+@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@700&display=swap');
+
+/* Se define la letra */
+*{
+    font-family: Skranji;
+    box-sizing: border-box;
+}
+
+/* Se le da fondo y se ubica el cuerpo */
+body{
+    min-height: 100vh;
+    background-image: url(https://res.cloudinary.com/dyepe4ih7/image/upload/v1697740651/Royale/hqecketscx1anny0kjsd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Se le da color y otras caracteristicas a la pagina principal */
+.tarjeta{
+    padding: 20px;
+    background-color: white;
+    border-radius: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Se define el tamaño a la imagen */
+.imagen{
+    width: 350px;
+    height: 350px;
+    object-fit: contain;
+    display: flex;
+}
+
+/* Se le dan detalles a los botones izquiero y derecho */
+.punteros{
+    margin: 0px 60px;
+    width: 50px;
+    height: 50px;
+    color: white;
+    font-size: 30px;
+    background: rgba(18, 46, 205, 0.83);
+    border: none;
+    border-radius: 45px;
+}
+.punteros:hover{
+    cursor: pointer;
+}
+.punteros:disabled{
+    background-color: rgba(83, 83, 83, 0.83);
+    cursor: initial;
+}
+
+/* Se ubica y se le dan detalles al boton central donde se ubica el nombre */
+.nombre{
+    margin: 10px;
+    padding: 0px 25px;
+    width: auto;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: white;
+    background: rgba(18, 46, 205, 0.83);
+    border: none;
+    border-radius: 15px;
+}
+.nombre:hover{
+    cursor: pointer;
+}

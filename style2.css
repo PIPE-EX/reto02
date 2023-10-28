@@ -1,0 +1,68 @@
+/* Se importa la fuente */
+@import url("https://fonts.googleapis.com/css2?family=Skranji:wght@700&display=swap");
+
+/* Se define la letra */
+* {
+  font-family: Skranji;
+  box-sizing: border-box;
+}
+
+/* Se le da fondo y se ubica el cuerpo */
+body {
+  min-height: 100vh;
+  background-image: url(https://res.cloudinary.com/dyepe4ih7/image/upload/v1697740651/Royale/hqecketscx1anny0kjsd.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Se le da color y otras caracteristicas a la pagina principal */
+.tarjeta {
+  padding: 20px 75px 20px 0px;
+  background-color: white;
+  border-radius: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Se define el tamaño a la imagen */
+.imagen {
+  margin-left: 40px;
+  width: 350px;
+  height: 350px;
+  object-fit: contain;
+}
+
+/* Se le dan detalles y tamaño a la letra */
+.detalle, .nombre{
+    width: 310px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.nombre{
+    font-size: 30px;
+}
+
+/* Se ubica y se le dan detalles al boton con el que se regresa a la pagina ppal  */
+.volver {
+  text-align: left;
+  padding: 0px 5px 0px 40px;
+  width: auto;
+  height: 40px;
+  font-size: 20px;
+  color: #551B8B;
+  background: none;
+  border: none;
+  border-radius: 15px;
+}
+.volver:hover {
+  cursor: pointer;
+}
